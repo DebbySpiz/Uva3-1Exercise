@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>uva136</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="stacked">Input </ion-label>
+          <ion-input  [(ngModel)]="n"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-row> 
+          <ion-button color="danger" (click)="getUgly(n)" >Calcola</ion-button>
+        </ion-row>
+       <p> Il valore da inserire: {{risultato}} </p>
+  
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

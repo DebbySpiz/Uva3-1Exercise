@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'uva136',
+    loadChildren: () => import('./uva136/uva136.module').then( m => m.Uva136PageModule)
+  },
 ];
 
 @NgModule({
