@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label position="stacked">Input </ion-label>
+        <ion-input [(ngModel)]="i"></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+        <ion-label position="stacked">Input </ion-label>
+        <ion-input [(ngModel)]="j"></ion-input>
+      </ion-item>
+      <ion-row> 
+        <ion-button color="danger" (click)="ciclo()" >Calcola</ion-button>
+      </ion-row>
+     <p> Il ciclo con il valore più grande tra {{i}} e {{j}} è : {{max}}</p>
+
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

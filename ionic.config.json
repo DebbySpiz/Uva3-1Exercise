@@ -1,0 +1,7 @@
+{
+  "name": "uva3-1exercise",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
