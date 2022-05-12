@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>crescente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-label> Input 1 </ion-label>
+        <ion-input [(ngModel)]="a"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label> Input2 </ion-label>
+        <ion-input [(ngModel)]="b"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Input3 </ion-label>
+        <ion-input [(ngModel)]="c"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Input4 </ion-label>
+        <ion-input [(ngModel)]="d"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label> Input5 </ion-label>
+        <ion-input [(ngModel)]="e"></ion-input>
+        <ion-row>
+          <ion-button color="danger" (click)="pushToArray()"
+            >Inserisci</ion-button
+          >
+        </ion-row>
+        <ion-row>
+          <ion-button color="danger" (click)="messaggio()"
+            >Crescente</ion-button
+          >
+          <h1>{{stringaArray}}</h1>
+        </ion-row>
+        <ion-row>
+          <ion-button color="danger" (click)="messaggio2()"
+            >Derescente</ion-button
+          >
+          <h1>{{stringaArray2}}</h1>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

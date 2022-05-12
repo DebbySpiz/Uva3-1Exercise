@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'uva136',
     loadChildren: () => import('./uva136/uva136.module').then( m => m.Uva136PageModule)
   },
+  {
+    path: 'crescente',
+    loadChildren: () => import('./crescente/crescente.module').then( m => m.CrescentePageModule)
+  },
 ];
 
 @NgModule({
