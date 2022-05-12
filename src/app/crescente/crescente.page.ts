@@ -59,7 +59,7 @@ messaggio(){
 this.stringaArray = "Array ordinato in modo crescente: " + this.ordinaArray(this.array);
 }
 messaggio2(){
-  this.stringaArray = "Array ordinato in modo crescente: " + this.decrescente(this.array);
+  this.stringaArray = "Array ordinato in modo decrescente: " + this.decrescente(this.array);
   }
   }
 
